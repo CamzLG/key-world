@@ -1,0 +1,431 @@
+/** Reset */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 80px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/** NAV */
+
+header{
+    background-color: rgb(154, 140, 152);
+    height: 80px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header nav ul{
+    list-style: none;
+    bottom: 2px;
+    text-align: center;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: 15px;
+    font-size: 20px;
+}
+
+header nav ul li a{
+    color: rgb(242, 233, 228) ;
+}
+
+.logo{
+    font-size: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/** Footer */
+
+footer{
+    background-color: rgb(34, 34, 59);
+    color: rgb(242, 233, 228);
+    text-align: center;
+    height: 180px;
+    position: relative;
+}
+
+footer a img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+footer h3{
+    padding: 10px;
+}
+
+footer p{
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+    width: 100%;
+    opacity: 60%;
+}
+
+hr{
+    width: 70%;
+    margin: auto;
+    color: rgb(34, 34, 59);
+    border: 2px solid rgb(34, 34, 59);
+}
+
+/** Body index */
+
+.hero{
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    color: rgb(242, 233, 228);
+    background-image: url(../img/imgsection4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 50px;
+    display: table-cell;
+    vertical-align: middle;
+    text-shadow: 2px 2px black;
+}
+
+/** section 2 index */
+
+.more-index {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.more-index-texto1{
+    font-size: 30px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.more-index-texto2{
+    font-size: 30px;
+    padding-top: 210px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.more-index img{
+    width: 500px;
+    height: 350px;
+}
+
+/** Noticias index */
+
+.noticias-index {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.noticias-index h2{
+    color: rgb(34, 34, 59);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.noticias-index a div{
+    border: 2px solid rgb(34, 34, 59);
+    width: 314px;
+    height: 400px;
+    text-align: center;
+    display: inline-block;
+    margin: 30px;
+}
+
+.noticias-index a div img{
+    width: 310px;
+    height: 250px;
+}
+
+.noticias-index a div p{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+/** Registro */
+
+.registro-index{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.registro-index h3{
+    margin-bottom: 10px;
+    color: rgb(34, 34, 59);
+    font-size: 40px;
+}
+
+.registro-index p{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.registro-index form input{
+    width: 400px;
+    height: 30px;
+    text-align: center;
+}
+
+.registro-index form button{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+/** Reseñas */
+
+.ultimo-video{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.ultimo-video h1{
+    color: rgb(34, 34, 59);
+    margin: 50px;
+    font-size: 50px;
+}
+
+.ultimo-video iframe{
+    margin-bottom: 40px;
+    box-shadow: 8px 12px 12px -6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 8px 12px 12px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 8px 12px 12px -6px rgba(0,0,0,0.75);   
+}
+
+.ultimo-video p{
+    font-size: 20px;
+}
+
+.mas-reseñas{
+    margin: 40px;
+}
+
+
+.mas-reseñas h2{
+    margin-bottom: 40px;
+    color: rgb(34, 34, 59);
+    text-align: center;
+    font-size: 40px;
+}
+
+.contenedor-reseñas{
+    background-color: rgb(201, 173, 167);
+    width: 80%;
+    margin: auto;
+    height: 300px;
+    border-radius: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contenedor-reseñas img{
+    width: 350px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.reseña-opuesta{
+    background-color: rgb(201, 173, 167);
+    height: 300px;
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 100px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.reseña-opuesta img{
+    width: 350px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.reseña-opuesta h3{
+    text-align: right;
+}
+
+.reseña-opuesta p{
+    text-align: right;
+}
+
+.reseñas-textos{
+    color: rgb(34, 34, 59);
+    padding: 30px;
+}
+
+.reseñas-textos h3{
+    font-size: 30px;
+}
+
+.reseñas-textos p{
+    font-size: 20px;
+}
+
+/** Contacto */
+
+.contacto{
+    width: 85%;
+    height: 650px;
+    background-color: rgb(201, 173, 167);
+    border-radius: 100px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.contacto h1{
+    margin-top: 15px;
+    font-size: 50px;
+    color: rgb(34, 34, 59);
+}
+
+.contacto p{
+    font-size: 25px;
+    margin: 25px;
+    color: rgb(242, 233, 228);
+}
+
+.contacto form button{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.formulario-contacto{
+    margin-top: 50px;
+}
+
+.formulario-contacto input{
+    margin-bottom: 10px;
+    width: 30%;
+    height: 30px;
+}
+
+.formulario-contacto div textarea{
+    resize: none;
+    width: 50%;
+    height: 200px;
+}
+
+.publicidad-marcas{
+    text-align: center;
+    margin: 50px;
+}
+
+.publicidad-marcas img{
+    width: 210px;
+    height: 120px;
+    opacity: 80%;
+    margin: 15px;
+}
+
+/** Noticias */
+
+.noticias-page {
+    text-align: center;
+}
+
+.noticias-page h2{
+    color: rgb(34, 34, 59);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.noticias-page a div{
+    border: 2px solid rgb(34, 34, 59);
+    width: 314px;
+    height: 400px;
+    text-align: center;
+    display: inline-block;
+    margin: 30px;
+}
+
+.noticias-page a div img{
+    width: 310px;
+    height: 250px;
+}
+
+.noticias-page a div p{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+/** Nosotros */
+
+.nosotros-page img{
+    width: 310px;
+    height: 250px;
+}
+
+.nosotros-page {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto 300px auto 300px;
+    text-align: center;
+    align-items: center;
+    grid-template-areas:
+    "h1 h1 h1"
+    "imagen1 texto1 texto1"
+    "texto2 texto2 texto2"
+    "texto3 texto3 imagen2"
+    ;
+    justify-items: center;
+    align-items: center;
+    grid-row-gap: 30px;
+}
+
+.nosotros-page h1{
+    grid-area: h1;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.imagen1{
+    grid-area: imagen1;
+    border-radius: 100%;
+}
+
+.texto1{
+    grid-area: texto1;
+}
+
+.texto2{
+    grid-area: texto2;
+}
+
+.texto3{
+    grid-area: texto3;
+}
+
+.imagen2{
+    grid-area: imagen2;
+}
